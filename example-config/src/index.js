@@ -6,3 +6,6 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
+if (foo !== "foo") {
+    throw new Error("foo is not foo");
+}

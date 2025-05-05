@@ -1,39 +1,19 @@
 {
-	"name": "example",
-	"version": "0.0.1",
-	"private": false,
-	"keywords": [
-		"codeeditorland",
-		"land",
-		"playform"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SWCLoader#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/SWCLoader/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/SWCLoader.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Source 🖋️ Open 👐🏻",
-		"email": "Source/Open@Editor.Land",
-		"url": "HTTPS://Editor.Land"
-	},
-	"type": "module",
-	"main": "index.js",
-	"scripts": {
-		"build": "webpack && cp public/* build",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"start": "ecstatic build --port 3000"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"@playform/build": "0.2.3",
-		"ecstatic": "4.1.4"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+    "name": "example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack && cp public/* build",
+        "start": "ecstatic build --port 3000"
+    },
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "ecstatic": "^3.3.0",
+        "webpack": "^5.69.1",
+        "webpack-cli": "^4.9.2"
+    }
 }
