@@ -8,8 +8,8 @@
     "license": "MIT",
     "private": false,
     "devDependencies": {
-        "@swc/core": "^1.15.43",
-        "webpack": "^5.69.1"
+        "@swc/core": "^1.15.47",
+        "webpack": "^5.109.2"
     },
     "peerDependencies": {
         "@swc/core": "^1.15.43",
